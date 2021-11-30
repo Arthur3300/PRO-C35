@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+    
+
+    <!--Add your Firsebase Config here below. -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-database.js"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCgfjTTwoC-6xRYlznTqoCIsLhwSpT8ZMA",
+        authDomain: "air-baloon-ride-5f592.firebaseapp.com",
+        databaseURL: "https://air-baloon-ride-5f592-default-rtdb.firebaseio.com",
+        projectId: "air-baloon-ride-5f592",
+        storageBucket: "air-baloon-ride-5f592.appspot.com",
+        messagingSenderId: "548058999308",
+        appId: "1:548058999308:web:182d99dc3421d4eea71c29"
+      };
+    
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
